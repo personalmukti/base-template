@@ -1,0 +1,44 @@
+/* Warna */
+:root {
+  --theme-primary: #007bff;
+  --theme-secondary: #6c757d;
+  --theme-warning: #ffc107;
+  --theme-danger: #dc3545;
+  --theme-info: #17a2b8;
+  --theme-success: #28a745;
+  --theme-muted: #6c757d;
+  --theme-glass: rgba(255, 255, 255, 0.5);
+}
+
+/* Background */
+:root {
+  --bg-primary: var(--theme-primary);
+  --bg-secondary: var(--theme-secondary);
+  --bg-warning: var(--theme-warning);
+  --bg-danger: var(--theme-danger);
+  --bg-info: var(--theme-info);
+  --bg-success: var(--theme-success);
+  --bg-muted: var(--theme-muted);
+  --bg-glass: var(--theme-glass);
+  --bg-lightgrey: #f5f5f5;
+}
+
+/* Color */
+:root {
+  --color-primary: #007bff;
+  --color-secondary: #6c757d;
+  --color-warning: #ffc107;
+  --color-danger: #dc3545;
+  --color-info: #17a2b8;
+  --color-success: #28a745;
+  --color-muted: #6c757d;
+  --color-glass: rgba(255, 255, 255, 0.5);
+}
+
+/* Font Sizes */
+:root {
+  --font-sm: calc(0.875em * 16px); /* 14px */
+  --font-md: calc(1em * 16px); /* 16px */
+  --font-lg: calc(1.125em * 16px); /* 18px */
+  --font-xl: calc(1.25em * 16px); /* 20px */
+}
